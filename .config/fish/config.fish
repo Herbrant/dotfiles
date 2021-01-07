@@ -1,0 +1,6 @@
+set -x PATH $PATH '/home/davide/.config/composer/vendor/bin'
+set -x PATH $PATH '/home/davide/go/bin'
+set -x PATH $PATH '/usr/bin/java'
+set -x PATH $PATH '/home/davide/.npm-global/bin/'
+set -x PATH $PATH '/home/davide/.node_modules/bin'
+set -x PATH $PATH '/var/lib/flatpak/exports/bin'
