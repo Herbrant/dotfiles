@@ -179,9 +179,9 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-        status_command i3status
-}
+#bar {
+#        status_command i3status
+#}
 
 # Plasma compatibility improvements
 for_window [window_role="pop-up"] floating enable
@@ -202,3 +202,6 @@ for_window [class="plasmashell" window_type="notification"] border none, move ri
 no_focus [class="plasmashell" window_type="notification"]
 
 for_window [title="Desktop — Plasma"] kill; floating enable; border none
+
+for_window [class="^.*"] border pixel 1
+new_window 1pixel
