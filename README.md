@@ -28,8 +28,7 @@ applications:
 |-| ---- | ------- | ----- |
 | **Shell** | Fish | `fish` <sup>[Arch](https://www.archlinux.org/packages/community/x86_64/fish/)</sup> | [GitHub](https://github.com/fish-shell/fish-shell), [Docs](https://fishshell.com/docs/current/index.html)
 | **Terminal** | Alacritty | `alacritty` <sup>[Arch](https://archlinux.org/packages/community/x86_64/alacritty/)</sup> | [GitHub](https://github.com/alacritty/alacritty)
-| **File Manager** | Dolphin | `dolphin` <sup>[Arch](https://archlinux.org/packages/extra/x86_64/dolphin/)</sup> | [GitHub](https://github.com/KDE/dolphin), [Docs](https://userbase.kde.org/Dolphin)
-| **File Manager (Terminal)** | nnn | `nnn` <sup>[Arch](https://archlinux.org/packages/community/x86_64/nnn/)</sup> | [GitHub](https://github.com/jarun/nnn), [Docs](https://github.com/jarun/nnn/wiki)
+| **File Manager** | nnn | `nnn` <sup>[Arch](https://archlinux.org/packages/community/x86_64/nnn/)</sup> | [GitHub](https://github.com/jarun/nnn), [Docs](https://github.com/jarun/nnn/wiki)
 | **Editor (Main)** | Micro | `micro` <sup>[AUR](https://aur.archlinux.org/packages/micro/)</sup> | [GitHub](https://github.com/zyedidia/micro), [Docs](https://github.com/zyedidia/micro#documentation-and-help)
 | **ls replacement** | exa | `exa` <sup>[Arch](https://archlinux.org/packages/community/x86_64/exa/)</sup> | [GitHub](https://github.com/ogham/exa)
 | **top replacement** | gotop | `exa` <sup>[AUR](https://aur.archlinux.org/packages/gotop/)</sup> | [GitHub](https://github.com/cjbassi/gotop)
