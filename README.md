@@ -31,6 +31,6 @@ applications:
 | **File Manager** | nnn | `nnn` <sup>[Arch](https://archlinux.org/packages/community/x86_64/nnn/)</sup> | [GitHub](https://github.com/jarun/nnn), [Docs](https://github.com/jarun/nnn/wiki)
 | **Editor (Main)** | Micro | `micro` <sup>[AUR](https://aur.archlinux.org/packages/micro/)</sup> | [GitHub](https://github.com/zyedidia/micro), [Docs](https://github.com/zyedidia/micro#documentation-and-help)
 | **ls replacement** | exa | `exa` <sup>[Arch](https://archlinux.org/packages/community/x86_64/exa/)</sup> | [GitHub](https://github.com/ogham/exa)
-| **top replacement** | gotop | `exa` <sup>[AUR](https://aur.archlinux.org/packages/gotop/)</sup> | [GitHub](https://github.com/cjbassi/gotop)
-| **ping replacement** | gping | `exa` <sup>[AUR](https://aur.archlinux.org/packages/gping/)</sup> | [GitHub](https://github.com/orf/gping)
+| **top replacement** | gotop | `gotop` <sup>[AUR](https://aur.archlinux.org/packages/gotop/)</sup> | [GitHub](https://github.com/cjbassi/gotop)
+| **ping replacement** | gping | `gping` <sup>[AUR](https://aur.archlinux.org/packages/gping/)</sup> | [GitHub](https://github.com/orf/gping)
 | **finder** | fzf | `fzf` <sup>[Arch](https://archlinux.org/packages/community/x86_64/fzf//)</sup> | [GitHub](https://github.com/junegunn/fzf)
