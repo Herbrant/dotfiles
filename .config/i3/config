@@ -35,7 +35,7 @@ exec pkill "ksplashqml"
 exec --no-startup-id feh --bg-scale /home/davide/Immagini/Sfondi/121415.jpg
 
 # Use pactl to adjust volume in PulseAudio.
-set $refresh_i3status killall -SIGUSR1 i3status
+#set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
@@ -145,6 +145,13 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
+##==================================================##
+#                         *** Workspace specific settings ***                     #
+##=================================================##
+# Assign Workspaces:
+assign [class="Telegram"] $ws9
+
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -207,5 +214,10 @@ no_focus [class="plasmashell" window_type="notification"]
 
 for_window [title="Desktop — Plasma"] kill; floating enable; border none
 
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 2
 hide_edge_borders both
+
+gaps inner 5
+gaps outer 5
+smart_gaps on
+smart_borders on
