@@ -2,9 +2,13 @@
 
 configuration {
   show-icons:         true;
+  show-calc:		  true;
+  no-show-match:	  true;
+  no-sort:	          true;
   icon-theme:         "Papirus";
-  modi: "window,drun,ssh,combi";
+  modi: "window,drun,ssh,combi,calc";
   theme: "breeze-light";
   font: "hack 10";
   combi-modi: "window,drun,ssh";
+  
 }
