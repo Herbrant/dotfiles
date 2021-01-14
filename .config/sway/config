@@ -212,12 +212,15 @@ bindsym $mod+r mode "resize"
 set $lockman exec bash ~/.config/sway/lockman.sh
 bindsym $mod+o exec $lockman
 
-exec swayidle -w \
-resume 'swaymsg "output * dpms on"' \
-before-sleep 'swaylock -f -c 000000 -i $wallpaper'
+set $lock swaylock -c 550000
+exec swayidle -w before-sleep '$lockman'
+
 
 bar {
     swaybar_command waybar
 }
 
 default_border none
+
+gaps outer 6
+gaps inner 4
