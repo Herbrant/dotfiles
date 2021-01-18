@@ -222,5 +222,7 @@ bar {
 
 default_border none
 
-gaps outer 6
+gaps outer 4
 gaps inner 4
+
+bindsym $mod+Print exec ~/.config/sway/screenshot.sh 
