@@ -1,7 +1,7 @@
 # Herbrant's dotfiles
 
 My dotfiles for a more appealing and usable desktop experience with
-KDE+i3, terminals, editors, and more.
+Sway, terminals, editors, and more.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ applications:
 
 | | Name | Package | Links |
 |-| ---- | ------- | ----- |
-| **Window Manager** | i3-gaps | `i3-gaps` <sup>[Arch](https://www.archlinux.org/packages/community/x86_64/i3-gaps/)</sup> | [GitHub](https://github.com/Airblader/i3), [Docs](https://i3wm.org/docs/userguide.html)
+| **Window Manager** | Sway | `sway` <sup>[Arch](https://archlinux.org/packages/community/x86_64/sway/)</sup> | [GitHub](https://github.com/swaywm/sway), [Docs](https://github.com/swaywm/sway/wiki)
 | **Application Launcher** | Rofi | `rofi` <sup>[Arch](https://www.archlinux.org/packages/community/x86_64/rofi/)</sup> | [GitHub](https://github.com/davatorium/rofi), [Docs](https://github.com/davatorium/rofi/wiki)
 
 ### CLI
